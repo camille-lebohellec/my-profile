@@ -1,0 +1,85 @@
+/*Colors and fonts */
+body {
+    background: lightcoral;
+    color: rgb(50, 50, 50);
+    font-family: Arial;
+    font-size: 17px;
+}
+
+h1, h2, h3 {
+  color: darkslateblue;
+  font-family: "Arial", sans-serif;
+  font-weight: lightbold;
+  font-style: normal;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+} 
+a {
+  text-decoration: none;
+  color: #00BFFF;
+}
+ a:hover {
+   color: pink;
+}
+ .img-circle {
+  border-radius: 50%;
+}
+.container {
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+@media (max-width: 800px) {
+  .container {
+    width: 650px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.no-bullets {
+      list-style: none; 
+      padding: 0;      
+      margin: 0;       
+}
+.list-inline li {
+  display: incline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px
+}
+
+ div {
+    background: white;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-content {
+  margin-left: 200px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
